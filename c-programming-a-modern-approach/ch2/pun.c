@@ -1,12 +1,9 @@
 #include <stdio.h>
+#define N 1000
 
 int main(void)
 {
-    for (int i = 0; i<10; i++){
-        printf("%d ", i);
-    }
-    for (int i = 0; i<10; ++i){
-        printf("%d ", i);
-    }
+    int i = 1;
+    int j = 2;
     return 0;
 }
